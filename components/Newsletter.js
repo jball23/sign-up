@@ -7,9 +7,9 @@ const Newsletter = () => (
       <p className="text-sm">Want to hear from us when we add new components? Sign up for our newsletter and we'll email you every time we release a new batch of components.</p>
     </div>
     <form>
-      <div className="mb-2 flex">
+      <div className="mb-2 flex flex-col sm:flex-row">
         <input className="text-gray-dark py-3 px-3 rounded-sm w-full" placeholder="your@email.com" name="email" />
-        <input className="bg-gold py-3 px-7 ml-3 rounded-md text-gray-dark" type="submit" value="Subscribe" />
+        <input className="bg-gold py-3 px-7 mt-3 sm:mt-0 sm:ml-3 rounded-md text-gray-dark" type="submit" value="Subscribe" />
       </div>
       <label className="text-xs">Enter your email to make the internet better.</label>
     </form>
